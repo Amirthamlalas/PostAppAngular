@@ -1,0 +1,27 @@
+
+
+<app-navbar></app-navbar>
+
+
+<table class="table table-bordered border-success">
+        <thead>
+          <tr>
+            <th scope="col">User Id</th>
+            <th scope="col">Id</th>
+            <th scope="col">Title</th>
+            <th scope="col">Body</th>
+          
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let i of data">
+          
+            <td>{{i.userId}}</td>
+            <td>{{i.id}}</td>
+            <td>{{i.title}}</td>
+             <td>{{i.body}}</td>
+          </tr>
+         
+        </tbody>
+  </table>
+
